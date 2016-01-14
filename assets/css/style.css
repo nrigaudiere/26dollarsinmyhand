@@ -52,6 +52,13 @@ Tags: HTML, Template, Coming Soon, Kite
 	  src: url('../fonts/OpenSans-CondBold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
+@font-face {
+  font-family: 'Impact';
+  src: url('../fonts/impact.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/impact.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/impact.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 /* 1 - Import Google Font End 
 ---------------------------------------------------------------------- */
 
@@ -75,6 +82,7 @@ a:focus{
 	outline:none;
 	outline-offset:inherit;
 }
+
 .section-style{
 	background-attachment:inherit;
 	background-position:50% 0;
@@ -117,6 +125,11 @@ a:focus{
 .about {
 	background-image:url(../images/pattern.png),url(../images/about.jpg);
 	background-blend-mode: darken;
+}
+
+.yt-video {
+	width: 100%;
+    margin-top: 30px;
 }
 
 .container{
@@ -319,10 +332,6 @@ a:focus{
 	background:#55ACEE;
 	color: #fff;
 }
-.social-btn-box .linkedin-btn:hover{
-	background:#0077b5;
-	color: #fff;
-}
 .social-btn-box .google-plus-btn:hover{
 	background:#db514f;
 	color: #fff;
@@ -331,7 +340,7 @@ a:focus{
 	background:#cc181e;
 	color: #fff;
 }
-.social-btn-box .github-btn:hover{
+.social-btn-box .mail-btn:hover{
 	background:#2b2e30;
 	color: #fff;
 }
@@ -508,11 +517,20 @@ a:focus{
 ---------------------------------------------------------------------- */
 .site-title{
 	text-align:center;
-	font-size:66px;
-	font-family:'Pacifico';
-	margin:0 0 50px 0;
-	padding-bottom:50px;
+	font-size:90px;
+	font-family:'Impact';
+	margin:25vh 0 0 0;
 	position:relative;
+	
+	background:url('../images/pattern3.png');
+    background-repeat:repeat-x;
+    background-position:0 0;
+    color:transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 /*.site-title:before,
 .site-title:after{
