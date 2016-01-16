@@ -938,7 +938,8 @@ form.news-letter .btn:hover{
 @media screen and (max-width: 768px) and (orientation:landscape) {
 	.yt-video {
 		height: 170px;
-		width: 80%;
+	    width: 80%;
+	    margin-left: 10%;
 	}
 }
 
