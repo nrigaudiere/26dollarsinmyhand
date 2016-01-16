@@ -463,6 +463,17 @@ a:focus{
 	border-color: transparent;
 }
 
+.navbar .navbar-nav .lang {
+	padding: 0px 25px;
+    font-weight: 400;
+    font-size: 0.8em;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
 
 @media (max-width: 992px) {
     .navbar-header {

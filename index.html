@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="twentySixApp">
 <head>
 	<meta charset="UTF-8">
 	<title>	$26 In My Hand | I'm waiting for my man</title>
@@ -40,9 +40,16 @@
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 	<![endif]-->
+
 	<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+
+	<!-- AngularJS -->
+	<script src="assets/js/angular.min.js" type="text/javascript"></script>
+	<script src="assets/js/main.js" type="text/javascript"></script>
+	<script src="assets/js/controllers/26.controller.js" type="text/javascript"></script>
+
 </head>
-<body>
+<body ng-controller="twentySixController">
 
 
 
@@ -61,10 +68,11 @@
 		<nav class="collapse navbar-collapse">
 			<!-- Main navigation -->
 			<ul id="headernavigation" class="nav navbar-nav">
-				<li class="active"><a href="#page-top">Home</a></li>	
-				<li><a href="#about">Music</a></li>	
-				<li><a href="#subscribe">Pictures</a></li>	
-				<li><a href="#contact">About us</a></li>		
+				<li class="active"><a href="#page-top">{{lang.en.menu.m1}}</a></li>	
+				<li><a href="#about">{{lang.en.menu.m2}}</a></li>	
+				<li><a href="#subscribe">{{lang.en.menu.m3}}</a></li>	
+				<li><a href="#contact">{{lang.en.menu.m4}}</a></li>
+				<li class="lang">Fr|En</li>		
 			</ul> <!-- /.nav .navbar-nav -->
 		</nav> <!-- /.navbar-collapse  -->
 	</div><!-- /#main-menu -->
@@ -80,7 +88,7 @@
 					
 				</h1><!-- /.site-title -->
 				<h3 class="section-name">
-
+				
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
 				</h2><!-- /.Section-title  -->
@@ -99,7 +107,7 @@
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
-					Music
+					{{lang.en.menu.m2}}
 				</h2><!-- /.Section-title  -->
 				<p class="section-description">
 					
@@ -129,7 +137,7 @@
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
-					Pictures 
+					{{lang.en.menu.m3}}
 				</h2><!-- /.Section-title  -->
 				<div class="container">
 					<div class="row">
@@ -220,14 +228,10 @@
 						</span>
 					</h3><!-- /.section-name -->
 					<h2 class="section-title">
-							About Us
+						{{lang.en.menu.m4}}
  					</h2><!-- /.Section-title  -->
-					<p class="section-description">
-						Avec un nom faisant référence au Velvet Underground, et ayant comme moyen d’expression des compositions inspirées par la musique américaine des années 60/70, certains diront que ces sept jeunes musiciens de la scène parisienne ne sont pas en phase avec leur temps.
-						<br><br>
-						Mais la musique s’étend au-delà des époques, et ça les 26$ In My Hand l’ont bien compris. Seul leur importe de produire une musique en accord avec eux-mêmes, capable de toucher le public par son authenticité.
-						<br><br>
-						Euphorisés par la scène, c’est en concert que les 26$ In My Hand révèlent leur véritable potentiel, insufflant à leur musique une toute autre dimension.
+					<p class="section-description" >
+						{{lang.en.about}}
 					</p><!-- /.section-description -->
 
 					<div class="social-btn-container">
@@ -272,8 +276,6 @@
 		<script type="text/javascript" src="assets/js/plugins.js"></script>
 		<!-- Custom JavaScript Functions -->
 		<script type="text/javascript" src="assets/js/functions.js"></script>
-		<!-- Custom JavaScript Functions -->
-		<script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
 
 		  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
