@@ -59,6 +59,11 @@ Tags: HTML, Template, Coming Soon, Kite
        url('../fonts/impact.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
+@font-face {
+	font-family:'PoplarStd',
+	src: url('../fonts/PoplarStd.otf') format('opentype');
+}
+
 /* 1 - Import Google Font End 
 ---------------------------------------------------------------------- */
 
@@ -87,6 +92,13 @@ a:focus{
 	padding: 3px 10px;
 }
 
+.carousel-container {
+	padding: 0px;
+}
+
+.carousel {
+	width: 95%;
+}
 
 .section-style{
 	background-attachment:inherit;
@@ -347,7 +359,7 @@ a:focus{
 	color: #fff;
 }
 .social-btn-box .mail-btn:hover{
-	background:#2b2e30;
+	background:rgb(208, 185, 165);
 	color: #fff;
 }
 .social-btn-box .a:hover{
@@ -523,12 +535,12 @@ a:focus{
 ---------------------------------------------------------------------- */
 .site-title{
 	text-align:center;
-	font-size:110px;
-	font-family:'Impact';
+	font-size:125px;
+	font-family:'PoplarStd';
 	margin:25vh 0 0 0;
 	position:relative;
 	
-	background:url('../images/pattern4.png');
+	background:url('../images/pattern_txt.png');
     background-repeat:repeat-x;
     background-position:0 0;
     color:transparent;
@@ -537,6 +549,10 @@ a:focus{
     -moz-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color:transparent;
+    
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 /*.site-title:before,
 .site-title:after{
