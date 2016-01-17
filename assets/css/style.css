@@ -1004,7 +1004,23 @@ form.news-letter .btn:hover{
 }
 /* 9.3 - media screen and (max-width: 1170px) End
 ------------------------------------------------ */
+@media screen and (max-device-width: 1024px) {
+	.home {
+		background-image:url(../images/small/home_sm.jpg);
+	}
 
+	.music {
+		background-image:url(../images/small/music_sm.jpg);
+	}
+
+	.pictures {
+		background-image:url(../images/small/pictures_sm.jpg);
+	}
+
+	.about {
+		background-image:url(../images/small/about_sm.jpg);
+	}
+}
 
 /* 9 - Media Query End
 ---------------------------------------------------------------------- */
