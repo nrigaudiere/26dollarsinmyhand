@@ -474,6 +474,21 @@ a:focus{
     transition: all .25s;
 }
 
+.navbar .navbar-nav .lang span {
+	cursor: pointer;
+}
+
+.navbar .navbar-nav .lang .fr {
+	
+}
+
+.navbar .navbar-nav .lang .en {
+	
+}
+
+.boldLang {
+	font-weight: 900;
+}
 
 @media (max-width: 992px) {
     .navbar-header {

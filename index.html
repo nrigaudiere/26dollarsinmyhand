@@ -68,11 +68,11 @@
 		<nav class="collapse navbar-collapse">
 			<!-- Main navigation -->
 			<ul id="headernavigation" class="nav navbar-nav">
-				<li class="active"><a href="#page-top">{{lang.en.menu.m1}}</a></li>	
-				<li><a href="#about">{{lang.en.menu.m2}}</a></li>	
-				<li><a href="#subscribe">{{lang.en.menu.m3}}</a></li>	
-				<li><a href="#contact">{{lang.en.menu.m4}}</a></li>
-				<li class="lang">Fr|En</li>		
+				<li class="active"><a href="#page-top">{{menu.m1}}</a></li>	
+				<li><a href="#about">{{menu.m2}}</a></li>	
+				<li><a href="#subscribe">{{menu.m3}}</a></li>	
+				<li><a href="#contact">{{menu.m4}}</a></li>
+				<li class="lang"><span class="en boldLang" ng-click="toEn()">En</span>|<span class="fr" ng-click="toFr()">Fr</span></li>		
 			</ul> <!-- /.nav .navbar-nav -->
 		</nav> <!-- /.navbar-collapse  -->
 	</div><!-- /#main-menu -->
@@ -107,7 +107,7 @@
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
-					{{lang.en.menu.m2}}
+					{{menu.m2}}
 				</h2><!-- /.Section-title  -->
 				<p class="section-description">
 					
@@ -137,11 +137,11 @@
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
-					{{lang.en.menu.m3}}
+					{{menu.m3}}
 				</h2><!-- /.Section-title  -->
 				<div class="container">
 					<div class="row">
-				    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 carousel-container">
+				    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 carousel-container">
 				        <div id="carousel" class="carousel slide" data-ride="carousel">
 				            <div class="carousel-inner">
 				                <div class="item active">
@@ -228,10 +228,10 @@
 						</span>
 					</h3><!-- /.section-name -->
 					<h2 class="section-title">
-						{{lang.en.menu.m4}}
+						{{menu.m4}}
  					</h2><!-- /.Section-title  -->
-					<p class="section-description" ng-repeat="para in lang.en.paragraph">
-						{{para}}
+					<p class="section-description" ng-repeat="p in paragraph">
+						{{p}}
 					</p><!-- /.section-description -->
 
 					<div class="social-btn-container">
