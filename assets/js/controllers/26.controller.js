@@ -4,6 +4,9 @@ twentySixApp.controller('twentySixController', ['$scope', '$http', function ($sc
 	$scope.menu  	 = {};
 	$scope.paragraph = "";
 
+	$scope.enBold	 = "en boldLang";
+	$scope.frBold	 = "fr";
+
 
 	$http.get("assets/json/lang_en.json").success(function(data) {
 		$scope.lang.en 	 = data;
@@ -18,11 +21,15 @@ twentySixApp.controller('twentySixController', ['$scope', '$http', function ($sc
 	$scope.toFr = function() {
 		$scope.menu 	 = $scope.lang.fr.menu;
 		$scope.paragraph = $scope.lang.fr.paragraph;
+		$scope.enBold	 = "";
+		$scope.frBold	 = "boldLang";
 	}
 
 	$scope.toEn = function() {
 		$scope.menu 	 = $scope.lang.en.menu;
 		$scope.paragraph = $scope.lang.en.paragraph;
+		$scope.enBold	 = "boldLang";
+		$scope.frBold	 = "";
 	}
 
 }]);
