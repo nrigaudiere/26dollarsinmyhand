@@ -56,12 +56,13 @@ Tags: HTML, Template, Coming Soon, Kite
   font-family: 'Impact';
   src: url('../fonts/impact.eot'); /* IE9 Compat Modes */
   src: url('../fonts/impact.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/impact.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/impact.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
-	font-family:'PoplarStd',
-	src: url('../fonts/PoplarStd.otf') format('opentype');
+	font-family:'PoplarStd';
+	src: url('../fonts/PoplarStd.otf') format('opentype'),
+		 url('../fonts/PoplarStd.ttf')  format('truetype');
 }
 
 /* 1 - Import Google Font End 
