@@ -567,7 +567,7 @@ a:focus{
 	margin:25vh 0 0 0;
 	position:relative;
 	
-	-webkit-background:url('../images/pattern_txt.png');
+	/*-webkit-background-image:url('../images/pattern_txt.png');*/
     background-repeat:repeat-x;
     background-position:0 0;
     color:rgb(208, 185, 165);
@@ -579,6 +579,14 @@ a:focus{
          -o-background-size: cover;
             background-size: cover;
 }
+
+/*If Webkit*/
+@media all and (-webkit-min-device-pixel-ratio: 0) {
+	.site-title {
+		background-image:url('../images/pattern_txt.png') !important;
+	}
+}
+
 /*.site-title:before,
 .site-title:after{
 	content:"";
