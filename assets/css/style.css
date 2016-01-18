@@ -567,14 +567,12 @@ a:focus{
 	margin:25vh 0 0 0;
 	position:relative;
 	
-	background:url('../images/pattern_txt.png');
+	-webkit-background:url('../images/pattern_txt.png');
     background-repeat:repeat-x;
     background-position:0 0;
-    color:transparent;
+    color:rgb(208, 185, 165);
     -webkit-font-smoothing:antialiased;
     -webkit-background-clip:text;
-    -moz-background-clip:text;
-    background-clip:text;
     -webkit-text-fill-color:transparent;
     
     -webkit-background-size: cover;
@@ -889,6 +887,7 @@ form.news-letter .btn:hover{
 }
 .item .thumb img {
 	width: 100%;
+	height: 100%;
 	margin: 2px;
 }
 .item img {
@@ -949,7 +948,8 @@ form.news-letter .btn:hover{
 	}
 
 	.about {
-		height: 200%;
+		/*height: 200%;*/
+		height: 220%;
 	}
 
 	.social-btn-container .social-btn-box {
@@ -983,6 +983,17 @@ form.news-letter .btn:hover{
 		height: 170px;
 	    width: 80%;
 	    margin-left: 10%;
+	}
+
+	#subscribe {
+		height: 100%;
+	}
+	.pictures {
+		height: 173% !important;
+	}
+
+	.carousel-container {
+    	padding-left: 30px;
 	}
 }
 
