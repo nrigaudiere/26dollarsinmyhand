@@ -3,6 +3,7 @@ twentySixApp.controller('twentySixController', ['$scope', '$http', function ($sc
 	$scope.lang 	 = [];
 	$scope.menu  	 = {};
 	$scope.paragraph = "";
+	$scope.live = "";
 
 	$scope.enBold	 = "en boldLang";
 	$scope.frBold	 = "fr";
@@ -12,6 +13,7 @@ twentySixApp.controller('twentySixController', ['$scope', '$http', function ($sc
 		$scope.lang.en 	 = data;
 		$scope.menu  	 = data.menu;
 		$scope.paragraph = data.paragraph;
+		$scope.live      = data.live;
 	});
 
 	$http.get("assets/json/lang_fr.json").success(function(data) {
@@ -21,6 +23,7 @@ twentySixApp.controller('twentySixController', ['$scope', '$http', function ($sc
 	$scope.toFr = function() {
 		$scope.menu 	 = $scope.lang.fr.menu;
 		$scope.paragraph = $scope.lang.fr.paragraph;
+		$scope.live      = $scope.lang.fr.live;
 		$scope.enBold	 = "";
 		$scope.frBold	 = "boldLang";
 	}
@@ -28,6 +31,7 @@ twentySixApp.controller('twentySixController', ['$scope', '$http', function ($sc
 	$scope.toEn = function() {
 		$scope.menu 	 = $scope.lang.en.menu;
 		$scope.paragraph = $scope.lang.en.paragraph;
+		$scope.live      = $scope.lang.en.live;
 		$scope.enBold	 = "boldLang";
 		$scope.frBold	 = "";
 	}

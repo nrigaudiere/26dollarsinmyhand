@@ -135,6 +135,11 @@ a:focus{
 	background-blend-mode: darken;
 }
 
+.live {
+	background-image:url(../images/pattern.png),url(../images/live.jpg);
+	background-blend-mode: darken;
+}
+
 .pictures {
 	background-image:url(../images/pattern.png),url(../images/pictures.jpg);
 	background-blend-mode: darken;
@@ -695,7 +700,11 @@ a:focus{
 /* 5 - music Us Section End 
 ---------------------------------------------------------------------- */
 
-
+.live-dates {
+	background-color: rgba(0,0,0,0.4);
+    padding: 15px;
+    margin-top:15vh;
+}
 
 
 /* 6 - video Section
@@ -982,6 +991,10 @@ form.news-letter .btn:hover{
 	.yt-video {
 		height: 270px;
     	margin-top: 20px;
+	}
+
+	.live-dates {
+		font-size: 0.8em;
 	}
 }
 
