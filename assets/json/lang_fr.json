@@ -1,10 +1,10 @@
 {
-    
     "menu": {
       "m1": "Accueil",
       "m2": "Musique",
-      "m3": "Photos",
-      "m4": "À Propos"
+      "m3": "Dates",
+      "m4": "Photos",
+      "m5": "À Propos"
     },
   
   	"paragraph": [ 

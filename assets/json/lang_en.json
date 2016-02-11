@@ -2,8 +2,9 @@
     "menu": {
       "m1": "Home",
       "m2": "Music",
-      "m3": "Pictures",
-      "m4": "About"
+      "m3": "Live Dates",
+      "m4": "Pictures",
+      "m5": "About"
     },
   
     "paragraph": [
