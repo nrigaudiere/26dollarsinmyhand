@@ -1038,11 +1038,16 @@ form.news-letter .btn:hover{
 ------------------------------------------------ */
 @media screen and (max-device-width: 1024px) {
 	.home {
-		background-image:url(../images/small/home_sm.jpg);
+		background-image:url(../images/small/pattern_sm.png), url(../images/small/home_sm.jpg);
+		background-blend-mode: darken;
 	}
 
 	.music {
 		background-image:url(../images/small/music_sm.jpg);
+	}
+
+	.live {
+		background-image:url(../images/small/live_sm.jpg);
 	}
 
 	.pictures {
