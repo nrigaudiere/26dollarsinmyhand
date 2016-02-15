@@ -945,6 +945,30 @@ form.news-letter .btn:hover{
 
 
 @media screen and (max-width: 768px){
+
+
+	.home {
+		background-image:url(../images/xsmall/pattern_xs.png), url(../images/small/home_xs.jpg);
+		background-blend-mode: darken;
+	}
+
+	.music {
+		background-image:url(../images/xsmall/music_xs.jpg);
+	}
+
+	.live {
+		background-image:url(../images/xsmall/live_xs.jpg);
+	}
+
+	.pictures {
+		background-image:url(../images/xsmall/pictures_xs.jpg);
+	}
+
+	.about {
+		background-image:url(../images/xsmall/about_xs.jpg);
+	}
+
+
 	.site-title {
 		font-size: 90px;
 	}
