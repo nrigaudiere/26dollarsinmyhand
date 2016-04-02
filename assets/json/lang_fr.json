@@ -1,21 +1,23 @@
 {
     "menu": {
-      "m1": "Accueil",
-      "m2": "Musique",
-      "m3": "Dates",
-      "m4": "Photos",
-      "m5": "À Propos"
+        "m1": "Accueil",
+        "m2": "Musique",
+        "m3": "Dates",
+        "m4": "Photos",
+        "m5": "À Propos"
     },
-  
-  	"paragraph": [ 
-  		"Avec un nom faisant référence au Velvet Underground, et ayant comme moyen d’expression des compositions inspirées par la musique américaine des années 60/70, certains diront que ces sept jeunes musiciens de la scène parisienne ne sont pas en phase avec leur temps.",
-  		"Mais la musique s’étend au-delà des époques, et ça les 26$ In My Hand l’ont bien compris. Seul leur importe de produire une musique en accord avec eux-mêmes, capable de toucher le public par son authenticité.",
-  		"Euphorisés par la scène, c’est en concert que les 26$ In My Hand révèlent leur véritable potentiel, insufflant à leur musique une toute autre dimension."
-  	], 
+
+    "paragraph": [ 
+        "Avec un nom faisant référence au Velvet Underground, et ayant comme moyen d’expression des compositions inspirées par la musique américaine des années 60/70, certains diront que ces sept jeunes musiciens de la scène parisienne ne sont pas en phase avec leur temps.",
+        "Mais la musique s’étend au-delà des époques, et ça les 26$ In My Hand l’ont bien compris. Seul leur importe de produire une musique en accord avec eux-mêmes, capable de toucher le public par son authenticité.",
+        "Euphorisés par la scène, c’est en concert que les 26$ In My Hand révèlent leur véritable potentiel, insufflant à leur musique une toute autre dimension."
+    ], 
 
     "live" : [
-      "15 Mars 2016 | Café de la Presse (Paris, 75)",
-      "26 Mars 2016 | L'Usine à Chapeaux (Rambouillet, 78)"
+        "30 Janvier 2016 | Le Chaudron (Le Mée-sur-Seine, 77)",
+        "15 Mars 2016 | Café de la Presse (Paris, 75)",
+        "26 Mars 2016 | L'Usine à Chapeaux (Rambouillet, 78)",
+        "14 Avril 2016 | L'International (Paris, 75)"
     ]
 
 }

@@ -1,0 +1,60 @@
+{
+  "normal": {
+    "url": [ 
+    	"assets/images/slider/normal/1.jpg",
+    	"assets/images/slider/normal/2.jpg",
+    	"assets/images/slider/normal/3.jpg",
+      "assets/images/slider/normal/4.jpg",
+      "assets/images/slider/normal/5.jpg",
+      "assets/images/slider/normal/6.jpg",
+      "assets/images/slider/normal/7.jpg",
+      "assets/images/slider/normal/8.jpg",
+      "assets/images/slider/normal/9.jpg",
+      "assets/images/slider/normal/10.jpg",
+      "assets/images/slider/normal/11.jpg"
+    ],
+    "thumbsUrl": [ 
+      "assets/images/slider/normal/thumbs/1_th.jpg",
+      "assets/images/slider/normal/thumbs/2_th.jpg",
+      "assets/images/slider/normal/thumbs/3_th.jpg",
+      "assets/images/slider/normal/thumbs/4_th.jpg",
+      "assets/images/slider/normal/thumbs/5_th.jpg",
+      "assets/images/slider/normal/thumbs/6_th.jpg",
+      "assets/images/slider/normal/thumbs/7_th.jpg",
+      "assets/images/slider/normal/thumbs/8_th.jpg",
+      "assets/images/slider/normal/thumbs/9_th.jpg",
+      "assets/images/slider/normal/thumbs/10_th.jpg",
+      "assets/images/slider/normal/thumbs/11_th.jpg"
+    ]
+  },
+
+  "small" : {
+    "url": [
+      "assets/images/slider/small/1_sm.jpg",
+      "assets/images/slider/small/2_sm.jpg",
+      "assets/images/slider/small/3_sm.jpg",
+      "assets/images/slider/small/4_sm.jpg",
+      "assets/images/slider/small/5_sm.jpg",
+      "assets/images/slider/small/6_sm.jpg",
+      "assets/images/slider/small/7_sm.jpg",
+      "assets/images/slider/small/8_sm.jpg",
+      "assets/images/slider/small/9_sm.jpg",
+      "assets/images/slider/small/10_sm.jpg",
+      "assets/images/slider/small/11_sm.jpg"
+    ],
+
+    "thumbsUrl": [ 
+      "assets/images/slider/small/thumbs/1_th_sm.jpg",
+      "assets/images/slider/small/thumbs/2_th_sm.jpg",
+      "assets/images/slider/small/thumbs/3_th_sm.jpg",
+      "assets/images/slider/small/thumbs/4_th_sm.jpg",
+      "assets/images/slider/small/thumbs/5_th_sm.jpg",
+      "assets/images/slider/small/thumbs/6_th_sm.jpg",
+      "assets/images/slider/small/thumbs/7_th_sm.jpg",
+      "assets/images/slider/small/thumbs/8_th_sm.jpg",
+      "assets/images/slider/small/thumbs/9_th_sm.jpg",
+      "assets/images/slider/small/thumbs/10_th_sm.jpg",
+      "assets/images/slider/small/thumbs/11_th_sm.jpg"
+    ]
+  }
+}

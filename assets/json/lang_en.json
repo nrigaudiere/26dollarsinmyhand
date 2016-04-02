@@ -1,20 +1,22 @@
 {
     "menu": {
-      "m1": "Home",
-      "m2": "Music",
-      "m3": "Live Dates",
-      "m4": "Pictures",
-      "m5": "About"
+        "m1": "Home",
+        "m2": "Music",
+        "m3": "Live Dates",
+        "m4": "Pictures",
+        "m5": "About"
     },
-  
+
     "paragraph": [
-    	"With a name refering to the Velvet Underground and having original songs inspired by american music from the 60's, 70's as a mean of expression, some people might say that these seven young musicians from the Paris stage are not in phase with their era.",
-    	"But music spreads beyond time, and that has been well understood by the $26 In My Hand. In their opinion, the only thing that matters is to create a music that is in harmony with them, capable of affecting the public with its authenticity.",
-    	"Euphorized by the stage, it is during lives that the $26 In My Hand reveal their real potential, bringing a whole new dimension to their music."
+        "With a name refering to the Velvet Underground and having original songs inspired by american music from the 60's, 70's as a mean of expression, some people might say that these seven young musicians from the Paris stage are not in phase with their era.",
+        "But music spreads beyond time, and that has been well understood by the $26 In My Hand. In their opinion, the only thing that matters is to create a music that is in harmony with them, capable of affecting the public with its authenticity.",
+        "Euphorized by the stage, it is during lives that the $26 In My Hand reveal their real potential, bringing a whole new dimension to their music."
     ], 
 
     "live" : [
-      "15 March 2016 | Café de la Presse (Paris, 75)",
-      "26 March 2016 | L'Usine à Chapeaux (Rambouillet, 78)"
+        "30 January 2016 | Le Chaudron (Le Mée-sur-Seine, 77)",
+        "15 March 2016 | Café de la Presse (Paris, 75)",
+        "26 March 2016 | L'Usine à Chapeaux (Rambouillet, 78)",
+        "14 April 2016 | L'International (Paris, 75)"
     ]
 }

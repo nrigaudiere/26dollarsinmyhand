@@ -704,6 +704,7 @@ a:focus{
 	background-color: rgba(0,0,0,0.4);
     padding: 15px;
     margin-top:15vh;
+    border-radius: 2px;
 }
 
 
