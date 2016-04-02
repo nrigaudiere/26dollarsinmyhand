@@ -180,25 +180,13 @@
 				    <div class="clearfix">
 				        <div id="thumbcarousel" class="carousel slide" data-interval="false">
 				            <div class="carousel-inner">
-				                <div class="item" ng-repeat="thUrl in slider.thumbsUrl track by $index"  ng-class="{active:!$index}">
-				                    <div data-target="#carousel" data-slide-to="{{$index}}" class="thumb"><img ng-src="{{thUrl}}" width="131" height="131" alt="thumb-{{$index}}"></div>
-                                    
+				                <div class="item" ng-repeat="thUrl in slider.thumbsUrl track by $index"  ng-class="{active:!$index}" ng-if="$index % 4 == 0">
+				                    <div data-target="#carousel" data-slide-to="{{$index}}" class="thumb" ng-if="$index < slider.thumbsUrl.length"><img ng-src="{{slider.thumbsUrl[$index]}}" width="131" height="131" alt="thumb-{{$index}}"></div>
+                                    <div data-target="#carousel" data-slide-to="{{$index+1}}" class="thumb" ng-if="$index+1 < slider.thumbsUrl.length"><img ng-src="{{slider.thumbsUrl[$index+1]}}" width="131" height="131" alt="thumb-{{$index+1}}"></div>
+                                    <div data-target="#carousel" data-slide-to="{{$index+2}}" class="thumb" ng-if="$index+2 < slider.thumbsUrl.length"><img ng-src="{{slider.thumbsUrl[$index+2]}}" width="131" height="131" alt="thumb-{{$index+2}}"></div>
+                                    <div data-target="#carousel" data-slide-to="{{$index+3}}" class="thumb" ng-if="$index+3 < slider.thumbsUrl.length"><img ng-src="{{slider.thumbsUrl[$index+3]}}" width="131" height="131" alt="thumb-{{$index+3}}"></div>
 				                </div><!-- /item -->
-
-<!--
-				                <div class="item">
-				                    <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="assets/images/slider/thumbs/5_th.jpg" width="131" height="131" alt="thumb5"></div>
-				                    <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="assets/images/slider/thumbs/6_th.jpg" width="131" height="131" alt="thumb6"></div>
-				                    <div data-target="#carousel" data-slide-to="6" class="thumb"><img src="assets/images/slider/thumbs/7_th.jpg" width="131" height="131" alt="thumb7"></div>
-				                    <div data-target="#carousel" data-slide-to="7" class="thumb"><img src="assets/images/slider/thumbs/8_th.jpg" width="131" height="131" alt="thumb8"></div>
-				                </div> 
-				                <div class="item" ng-repeat-end>
-				                    <div data-target="#carousel" data-slide-to="8" class="thumb"><img src="assets/images/slider/thumbs/9_th.jpg" width="131" height="131" alt="thumb9"></div>
-				                    <div data-target="#carousel" data-slide-to="9" class="thumb"><img src="assets/images/slider/thumbs/10_th.jpg" width="131" height="131" alt="thumb10"></div>
-				                    <div data-target="#carousel" data-slide-to="10" class="thumb"><img src="assets/images/slider/thumbs/11_th.jpg" width="131" height="131" alt="thumb11"></div>
-
-				                </div>  /item 
--->
+                                
 				            </div><!-- /carousel-inner -->
 				            <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
 				                <span class="glyphicon glyphicon-chevron-left"></span>
